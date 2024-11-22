@@ -1,14 +1,17 @@
 ![Unit Tests](https://github.com/jlandells/mm-py-api/actions/workflows/unit-tests.yml/badge.svg)
 
+# Mattermost Python API Library
 
-# Mattermost API Library
-
-A simple Python library for making Mattermost API calls.
+A Python library for interacting with Mattermost's API, providing flexible and extensible methods for making REST API calls.
 
 ## Installation
 
-Install directly from GitHub:
+### From PyPI (Stable Version)
+```bash
+pip install mm-py-api
+```
 
+### From GitHub (Latest Development Version)
 ```bash
 pip install git+https://github.com/jlandells/mm-py-api.git
 ```
@@ -22,6 +25,7 @@ response = make_mattermost_api_call(
     mattermost_url="https://example.com",
     api_token="your_token",
     endpoint="/api/v4/users/me",
+    method="GET"
 )
 print(response)
 ```
