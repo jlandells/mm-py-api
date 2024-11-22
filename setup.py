@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="mattermost_py_api",  # Name of your library
-    version="1.0.0",  # Initial version
+    version="1.0.1",  # Initial version
     packages=find_packages(),  # Automatically find the package(s)
     install_requires=["requests"],  # Dependencies
     description="A simple Python library for making Mattermost API calls",
