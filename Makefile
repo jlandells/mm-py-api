@@ -2,7 +2,7 @@
 PACKAGE_NAME := mm_py_api
 
 # Commands
-.PHONY: clean build upload
+.PHONY: clean build upload all
 
 # Clean up old build artefacts
 clean:
@@ -15,3 +15,6 @@ build: clean
 # Upload to PyPI
 upload: build
 	twine upload dist/*
+
+# All-in-one target
+all: upload
