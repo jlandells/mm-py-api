@@ -12,8 +12,8 @@ class TestIntegrationMattermostAPI(unittest.TestCase):
         cls.mattermost_url = os.getenv("MATTERMOST_TEST_URL", "http://localhost")
         cls.api_token = os.getenv("MATTERMOST_TEST_TOKEN", "")
         cls.port = int(os.getenv("MATTERMOST_TEST_PORT", 8065))
-        cls.test_team_name = os.getenv("MATTERMOST_TEST_TEAM", "test-team")  # Replace with your team name
-        cls.test_channel_name = os.getenv("MATTERMOST_TEST_CHANNEL", "test-channel")  # Replace with your channel name
+        cls.test_team_name = os.getenv("MATTERMOST_TEST_TEAM", "integration-testing")  # Replace with your team name
+        cls.test_channel_name = os.getenv("MATTERMOST_TEST_CHANNEL", "test")  # Replace with your channel name
 
     def get_team_id(self, team_name):
         """Get the ID of a team by its name."""

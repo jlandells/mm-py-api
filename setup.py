@@ -9,8 +9,8 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/yourusername/mattermost_api",  # Replace with your GitHub repo URL
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="John Landells",
+    author_email="john.landells@mattermost.com",
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",

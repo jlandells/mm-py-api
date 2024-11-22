@@ -1,3 +1,6 @@
+![Unit Tests](https://github.com/jlandells/mm-py-api/actions/workflows/unit-tests.yml/badge.svg)
+
+
 # Mattermost API Library
 
 A simple Python library for making Mattermost API calls.
