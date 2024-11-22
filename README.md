@@ -10,7 +10,7 @@ A simple Python library for making Mattermost API calls.
 Install directly from GitHub:
 
 ```bash
-pip install git+https://github.com/yourusername/mattermost_api.git
+pip install git+https://github.com/jlandells/mm-py-api.git
 ```
 
 ## Usage
